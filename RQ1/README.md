@@ -5,8 +5,10 @@ Before the experiment, please be sure that the data is well prepared according t
 ## 1. Initializer
 Vary the 'dataset' and 'model_name' in the main body of 'initializer.py' to chose a experimented model, for example:
 
-```dataset = mnist
-model_name = lenet1```
+```
+dataset = mnist
+model_name = lenet1
+```
 
 Then, run 'initializer.py', the initialized model will be stored as ('new_model/' + dataset + '/'+ model_name + '/{}/init_model.h5'.format(R))
 The parameter R is to store different initialized models for repeating experiments, which is varied from 1 to 3 (or more).
