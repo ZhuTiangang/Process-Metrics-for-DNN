@@ -18,7 +18,7 @@ Then run 'compute_coverage.py', the coverage values will be stored in ('Coverage
 ## 4. Correlation
 Please make sure the values of *dataset*, *model_name*, *R* and *seed* in 'correlation.py' keep the same as in 'compute_coverage.py'. 
 
-Then run 'correlation.py', the Spearman and Pearson correlation results will be stored in ("correlation_" + dataset + ".txt")
+Then run 'correlation.py', the Spearman and Pearson correlation results will be stored in ("correlation_" + dataset + ".txt").
 
 ## 5. Modeling
 Before build a model for overfitting rates and coverage metrics, please collect all the data and put together like 'fit.xlsx'. 
