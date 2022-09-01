@@ -23,4 +23,4 @@ Then run 'correlation.py', the Spearman and Pearson correlation results will be 
 ## 5. Modeling
 Before build a model for overfitting rates and coverage metrics, please collect all the data and put together like 'fit.xlsx'. 
 
-Then run 'fit.py', the performance data of the model will be stored in "fit.txt".
+Then run 'fit.py', the performance data of the model will be stored in ("fit.txt").
