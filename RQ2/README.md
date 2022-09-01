@@ -8,7 +8,8 @@ $ python craft_adv_examples.py -d mnist -m lenet1 -a all
 ```
 The adv_examples will be stored as ('/data/Adv_%s_%s_%s.npy' % (dataset, args.model, attack))
 
-### Attention: there may occur some unexpected problems with cw attack (most of the pictures show dark), if so please try following command to craft cw examples:
+### Attention: 
+there may occur some unexpected problems with cw attack (most of the pictures show dark), if so please try following command to craft cw examples:
 ```
 $ python attack_1.py -dataset mnist -model leent1 -attack CW
 ```
