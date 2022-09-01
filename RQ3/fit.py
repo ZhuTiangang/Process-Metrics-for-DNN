@@ -9,8 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 
 if __name__ == '__main__':
-    seed = 42
-    R = 1
+
 
     df = pd.read_excel("fit.xlsx", sheet_name="Sheet1")
     print(df)
