@@ -8,7 +8,7 @@ $ python craft_adv_examples.py -d mnist -m lenet1 -a all
 ```
 The adv_examples will be stored as ('/data/Adv_%s_%s_%s.npy' % (dataset, args.model, attack))
 
-*Attention: there may occur some unexpected problems with cw attack (most of the pictures show dark), if so please try following command to craft cw examples*
+*Attention: there may occur some unexpected problems with cw attack (most of the pictures show dark), if so please try following command to craft cw examples:*
 ```
 $ python attack_1.py -dataset mnist -model leent1 -attack CW
 ```
@@ -25,5 +25,5 @@ The parameter *adv_epoch* is to determine which epoch to insert adv_examples, yo
 ## 4. Adv_coverage
 Please make sure the values of *dataset*, *model_name*, *attack*, *num* and *adv_epoch* in 'adv_coverage.py' keep the same as in 'adv_iterate.py'. 
 
-Then run 'adv_coverage.py', the coverage values will be stored in ('Coverage trend with {0} adv_examples in epoch {1}.xlsx'.format(attack, adv_epoch))
+Then run 'adv_coverage.py', the coverage values will be stored in ('Coverage trend with {0} adv_examples in epoch {1}.xlsx'.format(attack, adv_epoch)).
 
