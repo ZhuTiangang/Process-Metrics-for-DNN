@@ -9,4 +9,17 @@ Confirm the *dataset*, *model_name* and *num* (6000 for mnist, 7326 for svhn, an
 The iterative models will be stored as ('new_model/' + dataset + '/'+ model_name +'/{}/model_{}.h5'.format(R, i)), 
 and the training history data will be stored as ('evaluate_' + dataset + '.xlsx').
 
-## 3. 
+## 3. Compute Coverage
+Please make sure the values of *dataset*, *model_name*, *R* and *seed* in 'compute_coverage.py' keep the same as in 'iterate.py'. 
+
+Then run 'compute_coverage.py', the coverage values will be stored in ('Coverage of {}.xlsx'.format(dataset)).
+
+## 4. Correlation
+Please make sure the values of *dataset*, *model_name*, *R* and *seed* in 'compute_coverage.py' keep the same as in 'compute_coverage.py'. 
+
+Then run 'correlation.py', the Spearman and Pearson correlation results will be stored in ("correlation_" + dataset + ".txt")
+
+## 5. Modeling
+Before build a model for overfitting rates and coverage metrics, please collect all the data and put together like 'fit.xlsx'. 
+
+Then run 'fit.py', the performance data of the model is stored in "fit.txt".
