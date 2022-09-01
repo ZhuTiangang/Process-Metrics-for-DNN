@@ -11,7 +11,7 @@ The adv_examples will be stored as ('/data/Adv_%s_%s_%s.npy' % (dataset, args.mo
 ### Attention: 
 there may occur some unexpected problems with cw attack (most of the pictures show dark), if so please try following command to craft cw examples:
 ```
-$ python attack_1.py -dataset mnist -model leent1 -attack CW
+$ python attack_1.py -dataset mnist -model lenet1 -attack CW
 ```
 
 ## 2. Initializer
