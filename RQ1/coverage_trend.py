@@ -134,7 +134,7 @@ if __name__ == '__main__':
         trend_train_nbc.append(nbc)
         trend_train_snac.append(snac)
 
-        with open("coverage_result_of_train_data_sm.txt", "a") as f:
+        with open("coverage_result_of_train_data.txt", "a") as f:
             f.write("\n------------------------------------------------------------------------------\n")
             f.write('the result of {} {} epoch{} is: \n'.format(dataset, model_name,i))
             f.write('NC(0.1): {}  activate_num: {}  total_num: {} \n'.format(nc1, activate_num1, total_num1))
@@ -203,7 +203,7 @@ if __name__ == '__main__':
     trend_result_train_kmnc = mk.original_test(trend_train_kmnc)
     trend_result_train_nbc = mk.original_test(trend_train_nbc)
     trend_result_train_snac = mk.original_test(trend_train_snac)
-    with open("coverage_trend_of_train_data_sm.txt", "a") as f:
+    with open("coverage_trend_of_train_data.txt", "a") as f:
         f.write("\n------------------------------------------------------------------------------\n")
         f.write("data number = {} \n".format(num))
         f.write('the result of {} {} experiment{} is: \n'.format(dataset, model_name, R))
