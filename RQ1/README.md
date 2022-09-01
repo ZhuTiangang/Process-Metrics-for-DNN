@@ -14,7 +14,7 @@ Then, run 'initializer.py', the initialized model will be stored as ('new_model/
 The parameter *R* is to store different initialized models for repeating experiments, which is varied from 1 to 3 (or more).
 
 ## 2. Iterate
-Please make sure the values of *dataset*, *model_name* and *R* in 'iterate.py' keep the same as in 'initializer.py', and fill in the value of 'num' corresponding to the size of dataset (60000 for mnist, 73257 for svhn, and 50000 for cifar). 
+Please make sure the values of *dataset*, *model_name* and *R* in 'iterate.py' keep the same as in 'initializer.py', and fill in the value of *num* corresponding to the size of dataset (60000 for mnist, 73257 for svhn, and 50000 for cifar). 
 
 Then, run 'iterate.py', the iterative models will be stored as ('new_model/' + dataset + '/'+ model_name +'/{}/model_{}.h5'.format(R, i)). The parameter seed is to shuffle the dataset for repeating experiments.
 
@@ -24,4 +24,4 @@ Please make sure the values of *dataset*, *model_name*, *R* and *seed* in 'cover
 Then run 'coverage_trend.py', the coverage trends will be stored in ('coverage_result_of_train_data.txt').
 
 ## Note
-For insufficient dataset, please change the value of 'num' (6000 for mnist, 7326 for svhn, and 5000 for cifar), and rerun the step 2, 3.
+For insufficient dataset, please change the value of *num* (6000 for mnist, 7326 for svhn, and 5000 for cifar), and rerun the step 2, 3.
