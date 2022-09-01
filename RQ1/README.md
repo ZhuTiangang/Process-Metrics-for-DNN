@@ -23,4 +23,5 @@ Please make sure the values of 'dataset', 'model_name', R and seed in 'coverage_
 
 Then run 'coverage_trend.py', the coverage trends will be stored in ('coverage_result_of_train_data.txt').
 
+## Note
 For insufficient dataset, please change the value of 'num' (6000 for mnist, 7326 for svhn, and 5000 for cifar), and rerun the step 2, 3.
