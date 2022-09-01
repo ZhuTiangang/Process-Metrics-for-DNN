@@ -1,5 +1,5 @@
 # Process-Metrics-for-DNN
-Code for paper:How to Measure the Training Stage of Deep Learning Models: the Angle of  Process Metrics from Software Engineering
+Code for paper: How to Measure the Training Stage of Deep Learning Models: the Angle of  Process Metrics from Software Engineering
 
 ## Dependencies:
 
@@ -11,6 +11,7 @@ Code has been tested on:
 
 ### Pip
 Use the following command to establish the environment:
+
 ```$ pip install -r requirements.txt```
 
 ## Quick start
