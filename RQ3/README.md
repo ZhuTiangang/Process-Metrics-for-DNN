@@ -6,6 +6,7 @@ Do the same process as in RQ1 or just copy the 'new_model' folder from '/RQ1' if
 
 ## 2. Iterate
 Confirm the *dataset*, *model_name* and *num* (6000 for mnist, 7326 for svhn, and 5000 for cifar) are correct, then run 'iterate.py'.
+
 The iterative models will be stored as ('new_model/' + dataset + '/'+ model_name +'/{}/model_{}.h5'.format(R, i)), 
 and the training history data will be stored as ('evaluate_' + dataset + '.xlsx').
 
