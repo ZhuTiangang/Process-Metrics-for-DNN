@@ -16,7 +16,7 @@ Please make sure the values of *dataset*, *model_name*, *R* and *seed* in 'compu
 Then run 'compute_coverage.py', the coverage values will be stored in ('Coverage of {}.xlsx'.format(dataset)).
 
 ## 4. Correlation
-Please make sure the values of *dataset*, *model_name*, *R* and *seed* in 'compute_coverage.py' keep the same as in 'compute_coverage.py'. 
+Please make sure the values of *dataset*, *model_name*, *R* and *seed* in 'correlation.py' keep the same as in 'compute_coverage.py'. 
 
 Then run 'correlation.py', the Spearman and Pearson correlation results will be stored in ("correlation_" + dataset + ".txt")
 
